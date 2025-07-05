@@ -2,16 +2,12 @@
 
 This repository contains a machine learning project that predicts the winner of IPL 2025 based on historical and synthetic data.
 
-## 📁 Project Structure
-
-- `data/` - contains the datasets used for training and testing.
-- `models/` - contains saved models and outputs.
-- `scripts/` - contains the training and evaluation scripts.
+.
 
 ## 📈 Model Performance
 
-Accuracy: 85% on validation set  
-Techniques used: Random Forest, Logistic Regression, Gradient Boosting
+Accuracy: 81%  
+Techniques used: Random Forest, Logistic Regression, XGBoost, SVM
 
 ## 📂 Added Files
 
