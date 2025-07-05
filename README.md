@@ -1,16 +1,37 @@
-# IPL 2025 Winner Prediction
+# 🏏 IPL 2025 Winner Prediction
 
-This repository contains a machine learning project that predicts the winner of IPL 2025 based on historical and synthetic data.
+This project uses machine learning to predict the winner of the **Indian Premier League (IPL) 2025** season, based on historical data, team statistics, player performance metrics, and simulated match outcomes.
 
-.
+It includes preprocessing, feature engineering, model training, evaluation, and prediction pipelines — all done using Python and Jupyter Notebooks.
 
-## 📈 Model Performance
+---
+## 📘 Project Overview
 
-Accuracy: 81%  
-Techniques used: Random Forest, Logistic Regression, XGBoost, SVM
+The goal is to analyze past IPL seasons and use predictive models to identify the most likely winner for the 2025 season. We incorporate features like:
 
-## 📂 Added Files
+- Team performance over seasons
+- Player stats (batting, bowling, fielding)
+- Toss decisions & venue impact
+- Match outcomes
+- Synthetic future schedules
 
-- **ipl_project2305 (2).ipynb** – Jupyter Notebook uploaded from Google Colab containing new data preprocessing, model evaluation, and prediction enhancements. You can open it directly in Colab:
+The project is exploratory and predictive — valuable for fans, analysts, and betting enthusiasts.
 
-  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Divyakalgaiya/IPL-2025-winner-prediction/blob/main/ipl_project2305%20(2).ipynb)
+---
+
+## 🧠 ML Models Used
+
+The following algorithms were tested and compared:
+
+- 🔍 **Logistic Regression**
+- 🌲 **Random Forest**
+- 🎯 **XGBoost**
+- 🤖 **Support Vector Machine (SVM)**
+
+Evaluation was done using:
+- Accuracy
+- Precision/Recall
+- F1 Score
+- Confusion Matrix
+- Cross-Validation
+
